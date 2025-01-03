@@ -1,14 +1,44 @@
 proxies:
-- name: AKUN-GITNEW
-  server: vidio.xtls.my.id
+
+- name: HERZA-SALTO (rimuru.My.id)
+  server: 104.17.3.81
   port: 443
   type: trojan
-  password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
-  network: ws
-  sni: nusa.lowh.site
+  password: db4bc6e0-c5c1-11ef-8cc2-1577c1651679
   skip-cert-verify: true
-  udp: true
+  sni: 11-lowh.rimuru.My.id
+  network: ws
   ws-opts:
-    path: "/trojan"
+    path: /welcome
     headers:
-      Host: nusa.lowh.site
+      Host: 11-lowh.rimuru.My.id
+  udp: true
+
+- name: HERZA.WLC (rimuru)
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: db4bc6e0-c5c1-11ef-8cc2-1577c1651679
+  skip-cert-verify: true
+  sni: support.zoom.us.11-lowh.rimuru.Biz.id
+  network: ws
+  ws-opts:
+    path: /welcome
+    headers:
+      Host: support.zoom.us.11-lowh.rimuru.Biz.id
+  udp: true
+  
+- name: HERZA.WLC (wc.akuwibu.Biz.id)
+  server: support.zoom.us
+  port: 443
+  type: trojan
+  password: db4bc6e0-c5c1-11ef-8cc2-1577c1651679
+  skip-cert-verify: true
+  sni: support.zoom.us.wc.akuwibu.Biz.id
+  network: ws
+  ws-opts:
+    path: /11-lowh.pertamaxx.us.kg/welcome
+    headers:
+      Host: support.zoom.us.wc.akuwibu.Biz.id
+  udp: true
+
